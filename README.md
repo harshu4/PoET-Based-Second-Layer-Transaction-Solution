@@ -40,7 +40,7 @@ is offline other banks can confirm transaction.
 - Docker\
 
 **Want to contact us**
-- Dwij Patel : 
+- Dwij Patel : dwij.bharodiya@gmail.com\
 - Harsh Gandhi : harsh4444.hf@gmail.com\
 - Parag Radadiya :\
 **Current Code is Buggy**
