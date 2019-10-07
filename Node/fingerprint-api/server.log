@@ -1,0 +1,41 @@
+/home/boredalchemist/Documents/apps
+/home/boredalchemist/Documents/apps/uploads/
+saving /home/boredalchemist/Documents/apps/uploads/fig.jpeg
+/home/boredalchemist/Documents/apps
+/home/boredalchemist/Documents/apps/uploads/
+saving /home/boredalchemist/Documents/apps/uploads/fig.bmp
+/home/boredalchemist/Documents/apps
+/home/boredalchemist/Documents/apps/
+saving /home/boredalchemist/Documents/apps/fig.bmp
+/home/boredalchemist/Documents/apps
+/home/boredalchemist/Documents/apps/
+saving /home/boredalchemist/Documents/apps/fig.bmp
+/home/boredalchemist/Documents/apps
+/home/boredalchemist/Documents/apps/
+saving /home/boredalchemist/Documents/apps/fig.bmp
+/home/boredalchemist/Documents/apps
+/home/boredalchemist/Documents/apps/
+saving /home/boredalchemist/Documents/apps/fig.bmp
+/home/boredalchemist/Documents/apps
+/home/boredalchemist/Documents/apps/
+saving /home/boredalchemist/Documents/apps/fig.bmp
+Exception on / [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "flaski.py", line 38, in api_root
+    time.sleep(1)
+NameError: name 'time' is not defined
+/home/boredalchemist/Documents/apps
+/home/boredalchemist/Documents/apps/
+saving /home/boredalchemist/Documents/apps/fig.bmp
