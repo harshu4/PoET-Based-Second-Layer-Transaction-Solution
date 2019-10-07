@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BANK REGISTRATION</title>
+
+    <link rel="stylesheet" href=".loder.css">
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+
+    <link rel="stylesheet" href="css/style.css">
+<style>.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  position: fixed;
+  left: 600px;
+
+  top: 300px;
+  z-index: 9999;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}</style>
+</head>
+<body>
+
+    <div class="main">
+
+        <!-- Sign up form -->
+        <section class="signup">
+            <div class="container" id="enterdata" >
+                <div class="signup-content">
+                    <div class="signup-form">
+                        <h2 class="form-title">Make An Account</h2>
+                        <form method="POST"   class="register-form" id="register-form">
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="name" id="name" placeholder="Name"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i class="zmdi zmdi-email"></i></label>
+                                <input type="text" name="AADHAR Number" id="aadhar_no" placeholder="AADHAR Number"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-email"></i></label>
+                                <input type="text" name="phone" id="phone" placeholder="Phone Number"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="text" name="Starting_Balance" id="Starting_Balance" placeholder="AGE"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-lock-outline"></i></label>
+                                <input type="text" name="Nominee Name" id="Nominee" placeholder="Nominee Name"/>
+                            </div>
+
+                            <div class="form-group form-button">
+                                <input type="submit" name="signup" id="OP" class="form-submit" value="ADD BALANCE"/>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="signup-image">
+                        <figure><img src="images/yoyo.webp" alt="sing up image"></figure>
+                        <div class="form-group form-button">
+                            <input type="submit" name="signup" id="ret" class="form-submit" value="Scan Fingerprint"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </div>
+
+              </div>
+                      </div>
+                  </div>
+              </section>
+
+          </div>
+
+
+ <div class="loader" id="loader" style="display:None" align="center"></div>
+ <div class="container" id="data" style="display:None" >
+   <p id='yo'></p>
+   <div class="form-group form-button">
+       <input type="submit" name="signup" id="reto" class="form-submit" value="Make New Account"/>
+   </div>
+ </div>
+
+
+
+
+
+        <!-- Sing in  Form -->
+
+    <!-- JS -->
+    <script src="./db.js"></script>
+      <script src="./gui.js"></script>
+
+</body>
+</html>

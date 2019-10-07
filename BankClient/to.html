@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BALANCE ADD</title>
+
+    <link rel="stylesheet" href="loder.css">
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+
+    <link rel="stylesheet" href="css/style.css">
+<style>.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  position: fixed;
+  left: 600px;
+
+  top: 300px;
+  z-index: 9999;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}</style>
+</head>
+<body>
+
+    <div class="main">
+
+        <!-- Sign up form -->
+        <section class="signup">
+            <div class="container" id="enterdata1" >
+                <div class="signup-content">
+                    <div class="signup-form">
+                        <h2 class="form-title">ADD BALANCE</h2>
+                        <form  class="register-form" id="register-form">
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="account" id="account" placeholder="ACCOUNT NUMBER"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i class="zmdi zmdi-email"></i></label>
+                                <input type="text" name="amount" id="amount" placeholder="AMOUNT"/>
+                            </div>
+
+
+
+                            <div class="form-group form-button">
+                                <input type="add" name="signup" id="OPP" class="form-submit" value="ADD"/>
+                            </div>
+                        </form>
+                    </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </div>
+
+              </div>
+                      </div>
+                  </div>
+              </section>
+
+          </div>
+
+
+ <div class="loader" id="loader" style="display:None" align="center"></div>
+ <div class="container" id="data" style="display:None" >
+   <p id='yo'></p>
+   <div class="form-group form-button">
+       <input type="submit" name="signup" id="reto" class="form-submit" value="Make New Account"/>
+   </div>
+ </div>
+<script>
+const $ = require('jquery')
+const request = require('request');
+const { exec } = require('child_process');
+$('#OPP').on('click',()=>{
+  console.log('harsh')
+  var amount= $('#amount').val()
+  var account=$('#account').val()
+  exec('python3 connector2.py '+account+' '+amount, (err, stdout, stderr) => {
+    if (err) {
+      return;
+    }
+    else{
+    alert(stdout)
+}
+
+  })
+
+})
+</script>

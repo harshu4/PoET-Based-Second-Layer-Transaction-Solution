@@ -1,0 +1,17 @@
+{
+  "name": "BankClient",
+  "version": "1.0.0",
+  "description": "Bank Client For Banking Solution",
+  "main": "main.js",
+  "scripts": {
+    "test": " electron .",
+"start":"electron main.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "pouchdb": "^7.1.1",
+    "sqlite3": "^4.1.0"
+  }
+}
