@@ -6,14 +6,14 @@
 
 **This Was Made During Wiz-a-thon a 24 hours Hackathon**
 
-**Project Description **
+**Project Description**
 
 As we know currently bank rely on third party such as mastercard and visa for payment \
 so we have created a solution using permissioned blockchain that helps banks to run \
 there own payment system without compromising security or speed. Even when the bank node
 is offline other banks can confirm transaction. 
 
-**Our Aim **
+**Our Aim**
 - To make Fast and Secure Payment Solutions that can be adopted Domestically and Internationally
 
 - Without Compromising with security or accessibility
