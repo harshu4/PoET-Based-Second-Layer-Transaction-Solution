@@ -24,7 +24,7 @@ is offline other banks can confirm transaction.
 - Every bank runs it own node , it terms of POW nodes can be reffered to as miners\
 - We have used PoET which Utilizes intel's SGX to run code in an trusted environment\
 [I'm an inline-style link with title](https://bitcoinexchangeguide.com/intels-poet-proof-of-elapsed-time-blockchain-consensus-algorithm/ "More About PoET consensus")
-- Now Customer Data is Encrypted with Bank's Private key of Whom the customer has account with \
+- Now Customer Data is Encrypted with Bank's Private key of Whom the customer has account with\
 - So No other Bank Can See Sensitive Cusomer Data \
 - Many Payment System can be implemented on this bases currently we have unabled Biometric Payment Client\
 ** How Do to get started **
@@ -42,9 +42,10 @@ is offline other banks can confirm transaction.
 **Want to contact us**
 - Dwij Patel : dwij.bharodiya@gmail.com\
 - Harsh Gandhi : harsh4444.hf@gmail.com\
-- Parag Radadiya :\
+- Parag Radadiya :
+
 **Current Code is Buggy**
-- As the whole code was implemented during the 24 hours hackathon this code contains \ 
+- As the whole code was implemented during the 24 hours hackathon this code contains\ 
   some reliance on easy way to code fast, we will refactor it when we get time
 
 **This repository Contains The Code for the Node, Bank Client and POS Client**
